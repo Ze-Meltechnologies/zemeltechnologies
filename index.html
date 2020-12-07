@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zemeltechnologies Llc- Just Tech It!</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+<link rel="manifest" href="./favicon/site.webmanifest">
+
+</head>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5f6c88caf0e7167d001362b2/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+
+<!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v9.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="101025801873715"
+theme_color="#800000"
+logged_in_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?"
+logged_out_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?">
+    </div>
+<!--End of Tawk.to Script-->
+
+<body>
+
+<!-- Header -->
+<section id="navbar">
+  <style>
+
+  </style>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand ">
+                    <img src="./assets/zelogo.png" class="logo" width="150px" alt="ZEMELTECHNOLOGIES LLC">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                        <a class="nav-link" href="#home">
+                            <i class="fas fa-home">HOME</i><span></span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li><a href="#services" data-after="Service">OUR SERVICES</a></li>
+                    <li><a href="#projects" data-after="Projects">OUR WORKS</a></li>
+                    <li><a href="#about" data-after="About">ABOUT US</a></li>
+                    <li><a href="#contact" data-after="Contact">OUR CONTACTS</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<!---START CAROUSEL-->
+<section id="home">
+    <style>
+        /*       Fade Bs-carousel       */
+        .fade-carousel {
+            position: relative;
+            height: 100vh;
+        }
+        .fade-carousel .carousel-inner .item {
+            height: 100vh;
+        }
+        .fade-carousel .carousel-indicators > li {
+            margin: 0 2px;
+            background-color: #f39c12;
+            border-color: #f39c12;
+            opacity: .7;
+        }
+        .fade-carousel .carousel-indicators > li.active {
+            width: 10px;
+            height: 10px;
+            opacity: 1;
+        }
+
+        /********************************/
+        /*          Hero Headers        */
+        /********************************/
+        .hero {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 3;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+            -webkit-transform: translate3d(-50%,-50%,0);
+            -moz-transform: translate3d(-50%,-50%,0);
+            -ms-transform: translate3d(-50%,-50%,0);
+            -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+        }
+        .hero h1 {
+            font-size: 6em;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+
+        .fade-carousel .carousel-inner .item .hero {
+            opacity: 0;
+            -webkit-transition: 2s all ease-in-out .1s;
+            -moz-transition: 2s all ease-in-out .1s;
+            -ms-transition: 2s all ease-in-out .1s;
+            -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+        }
+        .fade-carousel .carousel-inner .item.active .hero {
+            opacity: 1;
+            -webkit-transition: 2s all ease-in-out .1s;
+            -moz-transition: 2s all ease-in-out .1s;
+            -ms-transition: 2s all ease-in-out .1s;
+            -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+        }
+
+        /********************************/
+        /*            Overlay           */
+        /********************************/
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            background-color:#323f45;
+            opacity: 0.1;
+        }
+.hero a{
+    cursor: pointer;
+}
+        /********************************/
+        /*          Custom Buttons
+
+        .btn.btn-lg {padding: 10px 40px;}
+        .btn.btn-hero,
+        .btn.btn-hero:hover,
+        .btn.btn-hero:focus {
+            color: #f5f5f5;
+            background-color: #1abc9c;
+            border-color: #1abc9c;
+            outline: none;
+            margin: 20px auto;
+        }
+
+        /********************************/
+        /*       Slides backgrounds     */
+        /********************************/
+        .fade-carousel .slides .slide-1,
+        .fade-carousel .slides .slide-2,
+        .fade-carousel .slides .slide-3,
+        .fade-carousel .slides .slide-4
+        {
+            height: 100vh;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+        .fade-carousel .slides .slide-1
+        {
+            background-image: url('./assets/products/weddesign.png');
+        }
+        .fade-carousel .slides .slide-2
+        {
+            background-image: url('./assets/products/mobi.png');
+        }
+        .fade-carousel .slides .slide-3
+         {
+            background-image: url('./assets/products/software.png');
+        }
+        .fade-carousel .slides .slide-4
+        {
+          background-image: url('./assets/products/ictc.png');
+        }
+
+        /********************************/
+        /*          Media Queries       */
+        /********************************/
+        @media screen and (min-width: 980px){
+            .hero { width: 980px; }
+        }
+        @media screen and (max-width: 640px){
+            .hero h1 { font-size: 4em; }
+        }
+    </style>
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="5000" id="bs-carousel">
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#bs-carousel" data-slide-to="1"></li>
+        <li data-target="#bs-carousel" data-slide-to="2"></li>
+        <li data-target="#bs-carousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item slides active">
+            <div class="slide-1"></div>
+            <div class="hero">
+                <hgroup>
+                    <h1>Web Design & Development</h1>
+                    <h3>Take your business online today!</h3>
+                </hgroup>
+                <!--<p><a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1"
+                      class="btn btn-primary btn-sm">Chat
+                    With Us</a></p>-->
+
+            </div>
+        </div>
+        <div class="item slides">
+            <div class="slide-2"></div>
+            <div class="hero">
+                <hgroup>
+                    <h1>Mobile Application Development</h1>
+                    <h3>let's take away the hustle from you</h3>
+                </hgroup>
+               <!--<a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1"
+                      class="btn btn-primary btn-sm">Chat
+                    With Us</a>-->
+                  </div>
+                </div>
+        <div class="item slides">
+            <div class="slide-3"></div>
+            <div class="hero">
+                <hgroup>
+                    <h1>SOFTWARE DESIGN & DEVELOPMENT</h1>
+                    <h3>Get your business going now!</h3>
+                </hgroup>
+              <!--  <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1"
+                   class="btn btn-primary btn-sm">Chat
+                    With Us</a>-->
+            </div>
+        </div>
+
+        <div class="item slides">
+            <div class="slide-4"></div>
+            <div class="hero">
+                <hgroup>
+              <h1>ICT CONSULTANCY & IT SUPPORT</h1>
+              <p><i>come, we have the best solution you could get!</i></p>
+      </div>
+    </hgroup>
+                <!--<a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1"
+                   class="btn btn-primary btn-sm">Chat
+                    With Us</a>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+</section>
+
+
+<!--END CAROUSEL CAROUSEL-->
+
+
+
+<!--start of SERVICES section-->
+<div id="services" class="container text-center">
+    <h3 class="font-weight-bold"><b>OUR SERVICES</b></h3>
+    <p class="text-fo">Our services are all <b>customised</b> to meet your <b>business needs</b> as well align with your <b>business strategic plan</b>.
+        We value first-hand experience with you and,that is why we have dedicated ourselves to <b>delivering
+        highly-customisable</b> IT related services to serve you right.
+        We offer services in the mentioned fields below and still plan to expand more just to serve you with the best tech.</p>
+
+<section id="products">
+    <div class="service-bottom">
+        <div class="service-item">
+            <div class="icon">
+                <img src="./assets/icons/web-.png" alt="WEB DEVELOPMENT">
+            </div>&ensp;
+            <h2 style="text-align:justify">WEB DEVELOPMENT & DESIGNING </h2>
+            <p>Zemeltechnologies designs, develops and maintains both responsive and static websites for businesses
+                as well as personal websites at very pocket-friendly prices</p>
+            <h5 class="text-center"><a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1"
+                                      class="myButton">Get It Now</a></h5>
+        </div>
+
+        <div class="service-item">
+            <div class="icon">
+                <img src="./assets/icons/consult96.png">
+            </div>
+            <h2 style="text-align:justify">ICT CONSULTANCY & IT SUPPORT SERVICES</h2>
+            <p style="text-align:justify">At Zemeltechnologies, We offer Information Technology-related
+                Consultancy services at affordable prices for all the businesses, ranging from small and medium enterprises to large corporations </p>
+            <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a>
+        </div>
+
+        <div class="service-item">
+            <div class="icon">
+                <img src="./assets/icons/software96.png">
+            </div>
+            <h2>SOFTWARE DESIGN & DEVELOPMENT</h2>
+            <p style="text-align:justify">At the core of our organisation is an adaptive reliable and flexible team of programmers always ready to hear you out and provide a programmatic approach
+                towards your problems to come up with software to help curb your outcry
+                <span id="dots">...</span><span id="more">
+                    We all are committed towards innovation to make tech common use for all the businesses across all
+                    the economic dimensions. Come to us with a problem, we have a solution for you.</span></p>
+                    <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a><br>&ensp;&ensp;
+            <div><button class="btn read" onclick="myFunction()" id="myBtn">Read more</button></div>
+            <script>
+                function myFunction() {
+                    const dots = document.getElementById("dots");
+                    const moreText = document.getElementById("more");
+                    const btnText = document.getElementById("myBtn");
+
+                    if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less";
+                        moreText.style.display = "inline";
+                    }
+                }
+            </script>
+        </div>
+
+        <div class="service-item">
+            <div class="icon">
+                <img src="./assets/icons/clouddevelopment128.png">
+            </div>&ensp;
+            <h2 style="text-align:justify">CLOUD COMPUTING & ENTERPRISE SYSTEMS DEVELOPMENT</h2>
+            <p style="text-align:justify">With the advent of the cloud, we have dedicated our R&D team
+                towards designing cloud-related systems for our clients to help them take advantage of
+                this very enabling piece of technology to solve their business problems.</p>
+            <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a>
+        </div>
+
+    <div class="service-bottom">
+        <div class="service-item">
+            <div class="icon">
+                <img src="./assets/icons/sms-64.png">
+            </div>
+            <h2>BULK SMS INTEGRATION</h2>
+            <p style="text-align:justify">
+                We offer affordable and comprehensive Bulk SMS Integration support to all businesses in any market.
+                Notwithstanding the type of technology in use, we shall ensure that you have the best experience by
+                integrating your technology with all the necessary
+                SMS APIs and all the required documentation.</p>
+       <div class="row">
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                        <p style="text-align: justify">We shall custom-develop a solution that fits your business needs as you
+                            require. Send
+                            out hundreds of thousands of text messages automatically with ease.
+                            Let our team show you how programmatic SMS and SMS automation enables you to plan and
+                            execute marketing strategy, notifications and campaigns with advanced clarity and faultless execution. Allow us to show you how tech can serve you right
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a>&ensp;&ensp;&ensp;
+            <div>
+              <button class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"                   aria-expanded="false" aria-controls="multiCollapseExample1">Read More</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="service-item">
+            <div class="icon">
+                <img src="./assets/icons/payment64.png">
+            </div>
+            <h2>MOBILE MONEY PAYMENT PORTAL INTEGRATION</h2>
+            <p style="text-align:justify">With every institution today being forced into adopting a mobile payment method, we have centred ourselves around this to help integrate this very essential and fundamental item of technology to your systems to enable you streamline the
+                payments for your clients and staff. </p>
+            <p>Reach out to us to help you on this at very affordable rates.</p>
+
+            <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a>
+        </div>
+        <div class="service-item">
+            <div class="icon">
+                <img src="./assets/icons/code100.png">
+            </div>
+            <h2>MOBILE & PROGRESSIVE WEB APPLICATION DEVELOPMENT</h2>
+            <p style="text-align:justify">Zemeltechnologies has a committed team of experts in both the two
+                revolutionary architectures of Android and iOS mobile development.</p>
+            <p style="text-align:justify">We design and develop both mobile and web applications for businesses at very affordable rates each suited to serve you better with tech.Remember here we make Tech For You.</p>
+
+            <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a>
+        </div>
+        <div class="service-item">
+            <div class="icon">
+                <img src="./assets/icons/commerce64.png">
+            </div>
+            <h2>E-COMMERCE SITE & PLATFORM DEVELOPMENT</h2>
+            <p>With every business jostling for the electronic commerce space we find it quite fascinating to help you make it to the other end of the playing field with ease.</p>
+            <p>Enquire of our services to get your business right up on the e-commerce you've always wanted.</p>
+            <p>We develop for both Saas, PaaS as well Iaas for all our clients.</p>
+            <h5 class="text-center"><a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a></h5>
+        </div>
+    </div>
+</section>
+</div>
+
+<!-- End Service Section -->
+
+<!-- Projects Section -->
+<section id="projects">
+    <div class="projects container">
+        <div class="projects-header">
+            <h1 class="text-center">OUR <span>WORKS</span></h1>
+        </div>
+        <div class="all-projects">
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>WEB DESIGN</h1>
+                    <h2>ZOGHORI FOUNDATION LIMITED</h2>
+                    <p>A simple but well designed fully-responsive website for the Zoghori Foundation Limited, a non-profitable charity organisation.</p>
+                    <button class="btn "><a target="_blank" href="https://zoghori-foundation.github.io/foundation/">CHECK IT OUT!</a></button>
+                </div>
+                <div class="project-assets">
+                  <img src="./assets/project1.png" alt="ZOGHORI FOUNDATION">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>VISUAL BASIC PROGRAMMING</h1>
+                    <h2>INVENTORY MANAGEMENT SYSTEM</h2>
+                    <p>This is an affordable inventory management system for all businesses that hold inventories as well as make sales and purchases. It is a highly-customisable software that has been integrated with the famous Excel Spreadsheets to
+                        enable businesses maintain and keep track of their sales/purchases and the inventory.</p>
+                </div>
+                <div class="project-assets">
+                    <img src="./assets/ZeVBA.png" alt="INVENTORY SYSTEM">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>E-COMMERCE DEVELOPMENT</h1>
+                    <h2>E-COMMERCE WEBSITE</h2>
+                    <p>We deliver robust and well programmed, easily customisable e-commerce platform to propel your business and help you establish an online presence as well as boost the turnover rate. Feel free to come up to us with your well-thought
+                        e-commerce site and we shall aid in delivering the system you want. </p>
+                </div>
+                <div class="project-assets">
+                    <img src="./assets/Melchtech page.png" alt="E-COMMERCE">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>THE ZE-COMMERCE</h1>
+                    <h2>ZE-COM</h2>
+                    <p>The Ze-Com is a super superior electronic commercial site where all the IT & ICT related software and hardware components are displayed and sold at pocket-friendly bargainable prices. This is a unique one-stop-shop for all your
+                        Technology-related solutions for the offices, businesses and corporations.</p>
+                </div>
+                <div class="project-assets">
+                    <img src="./assets/e-com.png" alt="assets">
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>WEB DEVELOPMENT</h1>
+                    <h2>INTUITIVE DYNAMIC & STATIC WEBSITES</h2>
+                    <p>It's not common to have a static website that has all that you need featured on the same page, but all that is made possible by the web designers and developers only found at Zemeltechnologies where we provide tech to serve you
+                        and just for you. Come and let's begin the journey together today, we are here for you.</p>
+                </div>
+                <div class="project-assets">
+                    <img src="./assets/zemeltechnologies.me.png" alt="INTUITIVE STATIC SITE">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Projects Section -->
+
+
+
+<!--footer starts from here-->
+<section id="contact">
+<footer class="footer">
+    <div class="container bottom_border">
+        <div class="row">
+            <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">OUR BRIEF</h5>
+                <p class="mb10">We are an organised group of experts with tremendous undisputable experience at delivering high quality and affordable IT related solutions to businesses of all cadres. We provide the full spectrum of software, hardware and techincal services. We are involved in all stages of the SDLC (Software Development Life Cycle) from requirement analysis, product design,software development, testing, post project maintenance and support</p>
+                <p><i class="fa fa-location-arrow"></i> 86838-80100, MOMBASA KENYA </p>
+                <p><i class="fa fa-phone"></i><a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1">  +254 786-292-373 </a> </p>
+                <p><i class="fa fa fa-envelope"></i> info@zemeltechnologies.com  </p>
+            </div>
+
+
+            <div class="  col-sm-4 col-md col-sm-4  col-12 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">OUR SERVICES</h5>
+                <ul class="footer_ul_amrc">
+                    <li><a href="#">WEB DESIGN & DEVELOPMENT</a></li>
+                    <li><a href="#">E-COMMERCE WEBSITES & PLATFORM DEVELOPMENT</a></li>
+                    <li><a href="#">MOBILE,WEB & DESKTOP APPLICATION DEVELOPMENT</a></li>
+                    <li><a href="#">DESKTOP APPLICATIONS DEVELOPMENT</a></li>
+                    <li><a href="#">SOFTWARE DEVELOPMENT</a></li>
+                    <li><a href="#">ICT CONSULTANCY SERVICES</a></li>
+                    <li><a href="#">BULK SMS MESSAGING INTEGRATION</a></li>
+                    <li><a href="#">E-PAYMENT PORTALS SETUP</a></li>
+                </ul>
+            </div>
+
+
+            <div class="  col-sm-4 col-md col-sm-4  col-12 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">FOLLOW US</h5>
+                <ul class="footer_ul2_amrc">
+                    <li>
+                      <a target="_blank" href="https://fb.me/zemeltechnologies"><i class="fab fa-facebook-f fleft padding-right"></i><p>Find us on Facebook as Zemeltechnologies Llc Group</p></a>
+                    </li>
+                    <li><a target="_blank" href="https://twitter.com/Zemeltechub?s=09"><i class="fab fa-twitter fleft padding-right"></i><p>Find us on Twitter @Zemeltechub</p></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-youtube-square fleft padding-right"></i><p>Find us on Youtube Zemeltechnologies Llc</p></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/zemeltechnologies/"><i class="fab fa-instagram-square fleft padding-right"></i><p>Find us on Instagram Zemel-technologies Llc</p></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <ul class="footer_bottom_ul_amrc">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#services">OUR SERVICES</a></li>
+            <li><a href="#projects">OUR WORKS</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#contact">OUR CONTACTS</a></li>
+        </ul>
+
+        <p class="text-center text-md-left py-3">
+            <b> &COPY; ZEMELTECHNOLOGIES LLC GROUP 2020. ALL RIGHTS
+                RESERVED </b> DESIGNED BY: <a target="_blank" href="https://www.zemeltechnologies.me"><b>ZEMELTECHNOLOGIES LLC GROUP
+            &trade;</b></a> </p>
+
+        <ul class="social_footer_ul">
+            <li><a target="_blank" href="https://fb.me/zemeltechnologies" class="btn-floating btn-sm rgba-blue-strong">
+                <i class="fab fa-facebook-f"></i></a></li>
+            <li> <a target="_blank" href="https://twitter.com/Zemeltechnologies" class="btn-floating btn-sm rgba-blue-strong">
+                <i class="fab fa-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UCQLM9zrmeE2nOJ3TtQ8AVGg" class="btn-floating btn-sm
+                         rgba-red-strong">
+                <i class="fab fa-youtube-square"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/zemeltechnologies/" class="btn-floating btn-sm rgba-orange-slight">
+                <i class="fab fa-instagram fa-lg white-text mr-4"></i></a></li>
+        </ul>
+    </div>
+
+</footer>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>
