@@ -74,14 +74,14 @@ logged_out_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand ">
-                    <img src="./assets/Zeee.png" class="logo" width="165px" alt="ZEMELTECHNOLOGIES LLC">
+                    <img src="./assets/Zeelog.png" class="logo" width="165px" alt="ZEMELTECHNOLOGIES LLC">
                 </a>
             </div>
 
@@ -89,15 +89,22 @@ logged_out_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                        <a class="nav-link" href="#home">
+                        <a href="#home" class="hidden-xs">HOME</a>
+                        <a class="nav-link visible-xs" data-target=".navbar-collapse" data-toggle="collapse" href="#home">
                             <i class="fas fa-home">HOME</i><span></span><span class="sr-only">(current)</span></a>
                     </li>
-                    <li><a href="#services" data-after="Service">OUR SERVICES</a></li>
-                    <li><a href="#projects" data-after="Projects">OUR WORKS</a></li>
-                    <li><a href="#about" data-after="About">ABOUT US</a></li>
-                    <li><a href="#contact" data-after="Contact">OUR CONTACTS</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="#services" class="hidden-xs">OUR SERVICES</a>
+                        <a class="visible-xs" data-target=".navbar-collapse" data-toggle="collapse" href="#services" data-after="Service">OUR SERVICES</a></li>
+                    <li><a href="#projects" class="hidden-xs">OUR WORKS</a>
+                        <a class="visible-xs" data-target=".navbar-collapse" data-toggle="collapse"  href="#projects" data-after="Projects">OUR WORKS</a></li>
+                    <li><a href="#conatc" class="hidden-xs">ABOUT US</a>
+                        <a class="visible-xs" data-target=".navbar-collapse" data-toggle="collapse"  href="#contact" data-after="About">ABOUT US</a></li>
+                    <li><a href="#contact" class="hidden-xs">OUR CONTACTS</a>
+                        <a class="visible-xs" data-target=".navbar-collapse" data-toggle="collapse"  href="#contact" data-after="Contact">OUR CONTACTS</a></li>
+                    <li><a href="#" class="hidden-xs">Sign Up</a>
+                        <a class="visible-xs" data-target=".navbar-collapse" data-toggle="collapse"  href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#" class="hidden-xs">Login</a>
+                        <a class="visible-xs " data-target=".navbar-collapse" data-toggle="collapse"  href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                 </ul>
             </div>
         </div>
@@ -314,11 +321,12 @@ logged_out_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?">
 
 <!--start of SERVICES section-->
 <div id="services" class="container text-center">
-    <h3 class="font-weight-bold"><b>OUR SERVICES</b></h3>
+    <h1 class="font-weight-bold"><b>OUR SERVICES</b></h1>
     <p class="text-fo">Our services are all <b>customised</b> to meet your <b>business needs</b> as well align with your <b>business strategic plan</b>.
         We value first-hand experience with you and,that is why we have dedicated ourselves to <b>delivering
         highly-customisable</b> IT related services to serve you right.
-        We offer services in the mentioned fields below and still plan to expand more just to serve you with the best tech.</p>
+        We offer services in the mentioned fields below and still plan to expand more just to serve you with the best tech solutions.</p>
+        <p>Our services are <b>designed to take your business to the next level</b>, reducing the gap between you and the heights of success you wish to achieve.. We have consistently delivered optimal solutions for our wide-ranging global client base. Leverage our rich experience for your unique IT requirements</p>
 
 <section id="products">
     <div class="service-bottom">
@@ -338,8 +346,7 @@ logged_out_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?">
                 <img src="./assets/icons/consult96.png">
             </div>
             <h2 style="text-align:justify">ICT CONSULTANCY & IT SUPPORT SERVICES</h2>
-            <p style="text-align:justify">At Zemeltechnologies, We offer Information Technology-related
-                Consultancy services at affordable prices for all the businesses, ranging from small and medium enterprises to large corporations </p>
+            <p style="text-align:justify">At Zemeltechnologies, we deliver custom-tailored IT Consultancy Services and Business IT Support for organizations of any size.By partnering with us, we can help lead your organization forward with highly-effective IT strategies.</p>
             <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a>
         </div>
 
@@ -348,9 +355,9 @@ logged_out_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?">
                 <img src="./assets/icons/software96.png">
             </div>
             <h2>SOFTWARE DESIGN & DEVELOPMENT</h2>
-            <p class"text-justify">At the core of our organisation is an adaptive reliable and flexible team of programmers always ready to hear you out and provide a programmatic approach towards your problems to come up with software to help curb your outcry.</p>
-               <p>Come to us with a problem, we have a solution for you</p>
-            <!--<p style="text-align:justify">At the core of our organisation is an adaptive reliable and flexible team of programmers always ready to hear you out and provide a programmatic approach
+            <p>At the core of our organisation is an adaptive reliable and flexible team of programmers always ready to hear you out and provide a programmatic approach towards your problems to come up with software to help curb your outcry.</p>
+               <!-- <p>Come to us with a problem, we have a solution for you</p>
+           <p style="text-align:justify">At the core of our organisation is an adaptive reliable and flexible team of programmers always ready to hear you out and provide a programmatic approach
                 towards your problems to come up with software to help curb your outcry
                 <span id="dots">...</span><span id="more">
                     We all are committed towards innovation to make tech common use for all the businesses across all
@@ -380,8 +387,8 @@ logged_out_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?">
             <div class="icon">
                 <img src="./assets/icons/clouddevelopment128.png">
             </div>&ensp;
-            <h2 style="text-align:justify">CLOUD COMPUTING & ENTERPRISE SYSTEMS DEVELOPMENT</h2>
-            <p style="text-align:justify">With the advent of the cloud, we have dedicated our R&D team
+            <h2 style="text-align:justify">CLOUD-BASED SERVICES DEVELOPMENT</h2>
+            <p style="text-align:justify">With the advent of the cloud, we have dedicated our R & D team
                 towards designing cloud-related systems for our clients to help them take advantage of
                 this very enabling piece of technology to solve their business problems.</p>
             <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a>
@@ -395,10 +402,11 @@ logged_out_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?">
             <h2>BULK SMS INTEGRATION</h2>
             <p style="text-align:justify">
                 We offer affordable and comprehensive Bulk SMS Integration support to all businesses in any market.
-                Notwithstanding the type of technology in use, we shall ensure that you have the best experience by
-                integrating your technology with all the necessary
-                SMS APIs and all the required documentation.</p>
-       <div class="row">
+                We shall ensure that you have the best experience by integrating your technology with the necessary
+                SMS APIs and custom-develop a solution that fits your business needs as you
+                            require enabling you to send out a ton of SMS messages.Allow us to show you how tech can serve you right</p>
+                            <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a>
+       <!--<div class="row">
             <div class="col">
                 <div class="collapse multi-collapse" id="multiCollapseExample1">
                     <div class="card card-body">
@@ -411,11 +419,12 @@ logged_out_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?">
                     </div>
                 </div>
             </div>
-            <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a>&ensp;&ensp;&ensp;
+            
             <div>
-              <button class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"                   aria-expanded="false" aria-controls="multiCollapseExample1">Read More</button>
+              <button class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Read More</button>&ensp;&ensp;&ensp;<br>
             </div>
-          </div>
+            <a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1" class="myButton">Get It Now</a>
+          </div>-->
         </div>
 
 
@@ -534,6 +543,7 @@ logged_out_greeting="Hello, Welocme to Zemeltechnologies! How can we help you?">
             <div class=" col-sm-4 col-md col-sm-4  col-12 col">
                 <h5 class="headin5_amrc col_white_amrc pt2">OUR BRIEF</h5>
                 <p class="mb10">We are an organised group of experts with tremendous undisputable experience at delivering high quality and affordable IT related solutions to businesses of all cadres. We provide the full spectrum of software, hardware and techincal services. We are involved in all stages of the SDLC (Software Development Life Cycle) from requirement analysis, product design,software development, testing, post project maintenance and support</p>
+                <p>We are also a Web & App development company, our services are designed to take your business to the next level, reducing the gap between you and the heights of success you wish to achieve.. We have consistently delivered optimal solutions for our wide-ranging global client-base . Leverage our rich experience for your unique IT requirements</p>
                 <p><i class="fa fa-location-arrow"></i> 86838-80100, MOMBASA KENYA </p>
                 <p><i class="fa fa-phone"></i><a target="_blank" href="https://wa.me/message/HDPPVAG2Y7WNL1">  +254 786-292-373 </a> </p>
                 <p><i class="fa fa fa-envelope"></i> info@zemeltechnologies.com  </p>
