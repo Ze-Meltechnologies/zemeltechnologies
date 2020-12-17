@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#contact {
+    padding: 5% 5%;
+}
+
+.btn {
+    margin-top: 3%;
+}
+
+.form-group input {
+    margin-bottom: 5%;
+}
+
+.information {
+    width: 90%;
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.heading {
+    padding-bottom: 5%;
+}
+
+ul li{
+    padding-left: 5%;
+}
